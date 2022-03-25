@@ -1,0 +1,12 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xingheDYL/vuepress.git",
+  "author": "xinghe <1329749225@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  }
+}
