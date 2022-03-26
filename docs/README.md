@@ -20,3 +20,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 ## PWA
 
 为了演示 PWA 弹窗效果的内容
+
+注意需要在本地安装vuepress
+yarn add -D vuepress
+!!!
