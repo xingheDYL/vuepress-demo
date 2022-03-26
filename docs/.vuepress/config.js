@@ -1,3 +1,6 @@
+const moment = require('moment');
+moment.locale("zh-cn") //显示中国的时间格式
+
 module.exports = {
     title: "星河",
     description: "星河2",
@@ -20,7 +23,7 @@ module.exports = {
         // ['script', { src: "/utils/js/click.js" }, ``],
     ],
     themeConfig: {
-        lastUpdated: '更新时间:', 
+        lastUpdated: '更新时间',
         logo: '/assets/images/logo.png',
         // navbar: false,
         nav: [
@@ -48,5 +51,15 @@ module.exports = {
                 'j-ccc'
             ]
         }
-    }
+    },
+    plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp) => {
+                    return moment(timestamp).format("LLLL")
+                }
+            }
+        ]
+    ]
 }

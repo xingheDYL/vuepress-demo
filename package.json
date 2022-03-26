@@ -8,5 +8,11 @@
   "scripts": {
     "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
   }
 }
