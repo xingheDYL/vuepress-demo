@@ -1,6 +1,8 @@
 const moment = require('moment');
 moment.locale("zh-cn") //显示中国的时间格式
 
+const secretConf = require('./secret');
+
 module.exports = {
     '@vuepress/last-updated': {
         transformer: (timestamp) => moment(timestamp).format("LLLL")
@@ -19,8 +21,8 @@ module.exports = {
         // 其他的 Vssue 配置
         owner: 'xingheDYL',
         repo: 'vuepress',
-        clientId: '8f9485afcb3e4e619d6a',
-        clientSecret: '7246f5a1ae9eddd91cdf535001178d8f7820482f',
+        clientId: secretConf.clientId,
+        clientSecret: secretConf.clientSecret,
         autoCreateIssue: true
     },
     '@vuepress/back-to-top': true
