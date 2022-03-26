@@ -1,6 +1,5 @@
 ---
-title: CSS C
-autoNext: README
+title: JavaScript B
 ---
 
 ## 二级标题1

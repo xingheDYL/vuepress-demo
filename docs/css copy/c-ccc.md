@@ -1,6 +1,5 @@
 ---
 title: CSS C
-autoNext: README
 ---
 
 ## 二级标题1

@@ -1,6 +1,5 @@
 ---
-title: CSS C
-autoNext: README
+title: CSS A
 ---
 
 ## 二级标题1
