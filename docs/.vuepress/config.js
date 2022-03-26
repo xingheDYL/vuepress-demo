@@ -2,6 +2,7 @@ const moment = require('moment');
 moment.locale("zh-cn") //显示中国的时间格式
 
 module.exports = {
+    base: "/vuepress/",
     title: "星河",
     description: "星河2",
     head: [
